@@ -4,6 +4,10 @@ var moment = require("moment")
 var speakers = [{
   name: "Bjorn",
   speeches: [{
+    "start": "2016-01-15T21:00:00-05:00"
+    // If there is no end, the speech is in progress
+  },
+  {
     "start": "2016-01-15T19:15:33-05:00",
     "end": "2016-01-15T19:35:44-05:00"
   }, {
