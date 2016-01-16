@@ -1,0 +1,31 @@
+{
+  "name": "takestack",
+  "version": "1.0.0",
+  "description": "A mobile web app to facilitate equitable turn-taking in large meetings.",
+  "main": "web.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwestergard/takestack.git"
+  },
+  "keywords": [
+    "meeting",
+    "timer",
+    "mobile"
+  ],
+  "author": "Bjorn Westergard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bwestergard/takestack/issues"
+  },
+  "homepage": "https://github.com/bwestergard/takestack#readme",
+  "dependencies": {
+    "babel": "^5.8.34",
+    "babelify": "^6.4.0",
+    "browserify": "^13.0.0",
+    "express": "^4.13.3",
+    "standard": "^5.4.1"
+  }
+}
