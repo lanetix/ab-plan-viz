@@ -4,7 +4,9 @@
   "description": "A mobile web app to facilitate equitable turn-taking in large meetings.",
   "main": "web.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "browserify lib/app.js -t babelify --outfile static/bundle.js",
+    "build-watch": "watchify lib/app.js -t babelify --outfile static/bundle.js"
   },
   "repository": {
     "type": "git",
