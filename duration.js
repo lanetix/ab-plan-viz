@@ -38,6 +38,9 @@ var speechesTotalDuration = R.pipe(
     R.sum
 )
 
-R.map(
-    (speaker) => R.assoc('total', speechesTotalDuration(speaker.speeches), speaker)
+const total = R.pipe(
+  R.map((speaker) => speechesTotalDuration(speaker.speeches)),
+  R.sum
 )(speakers)
+
+console.log(total)

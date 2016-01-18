@@ -1,0 +1,44 @@
+table.stack {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.stack td,
+th {
+  padding: 0.5em;
+}
+
+table.stack td {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.lastOnStack td {
+  border-bottom: 1pt solid black;
+}
+
+tr.speaker td {
+  background: rgba(1, 0, 0, 0.1);
+}
+
+table.stack th {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.bar {
+  background: #ff0000;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 40em;
+}
+
+.floorSpeaker {
+  width: 100%;
+}
+
+.floorSpeaker h2 {
+  font-size: 4vw;
+}
