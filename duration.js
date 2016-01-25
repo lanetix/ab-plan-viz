@@ -30,12 +30,12 @@ var speakers = [{
 }]
 
 var duration = function (speech) {
-    return moment(speech.end).diff(moment(speech.start), 'seconds')
+  return moment(speech.end).diff(moment(speech.start), 'seconds')
 }
 
 var speechesTotalDuration = R.pipe(
-    R.map(duration),
-    R.sum
+  R.map(duration),
+  R.sum
 )
 
 const total = R.pipe(
