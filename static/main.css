@@ -1,56 +1,46 @@
+.row {
+  margin-bottom: 1em;
+}
+
 table.stack {
-  width: 100%;
-  text-align: left;
-  border-collapse: collapse;
+  width: 100%
 }
 
 table.stack td,
-th {
+table.stack th {
   padding: 0.5em;
 }
 
 table.stack td {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.lastOnStack td {
-  border-bottom: 1pt solid black;
-}
-
-tr.speaker td {
-  background: rgba(1, 0, 0, 0.1);
+  background: #ECF0F1;
 }
 
 table.stack th {
-  background: rgba(0, 0, 0, 0.15);
+  background: #BDC3C7;
 }
 
 .bar {
-  background: #ff0000;
-  height: 100%;
+  background: #E74C3C;
+  height: 1.8em;
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 40em;
+.hasFloor .bar {
+  height: 1.8em;
+  background: #C0392B;
+}
+
+.barCell {
+  padding: 0
+}
+
+#status {
+  background: #ECF0F1;
 }
 
 .floorSpeaker {
-  width: 100%;
+  text-align: center;
 }
 
-.floorSpeaker {
-  background: hsv(1, 1, 1);
-  display: block;
-  margin: auto;
-}
-
-.floorSpeaker h2 {
-  margin: 0;
-  font-size: 10vw;
-}
-
-.floorSpeaker h4 {
-  margin: 0;
-  font-size: 4vw;
+.participant {
+  margin: 0.5em 0 0 0.5em;
 }
