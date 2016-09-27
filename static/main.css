@@ -49,3 +49,7 @@ textarea {
   width: 100%;
   min-height: 80em;
 }
+
+.workflow-timeline {
+  overflow-x: scroll;
+}
