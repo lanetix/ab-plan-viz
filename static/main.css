@@ -2,6 +2,10 @@
   margin-bottom: 1em;
 }
 
+body {
+  padding: 3em;
+}
+
 table.stack {
   width: 100%
 }
