@@ -2,6 +2,10 @@
   margin-bottom: 1em;
 }
 
+body {
+  padding: 3em;
+}
+
 table.stack {
   width: 100%
 }
@@ -43,4 +47,13 @@ table.stack th {
 
 .participant {
   margin: 0.5em 0 0 0.5em;
+}
+
+textarea {
+  width: 100%;
+  min-height: 40em;
+}
+
+.workflow-timeline {
+  overflow-x: scroll;
 }
