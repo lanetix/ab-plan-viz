@@ -1,4 +1,3 @@
-# takestack
-A mobile web app to facilitate equitable turn-taking in large meetings.
+# AB Plan Viz
 
-[codepen](http://codepen.io/anon/pen/qbPXpq)
+Interactively configure the AB plan LxApp.
