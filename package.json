@@ -9,6 +9,9 @@
     "watch": "npm run build-watch & npm run serve",
     "postinstall": "npm run build"
   },
+  "engines" : {
+    "npm" : "~3.8.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lanetix/ab-plan-viz"
