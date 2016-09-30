@@ -7,8 +7,9 @@
     "test": "mocha",
     "build": "browserify -t babelify lib/app.js -o static/bundle.js",
     "build-watch": "./node_modules/watchify/bin/cmd.js -v -t babelify lib/app.js -o static/bundle.js",
-    "serve": "./node_modules/http-server/bin/http-server static/",
-    "watch": "npm run build-watch & npm run serve"
+    "serve": "./node_modules/http-server/bin/http-server static/ -p $PORT",
+    "watch": "npm run build-watch & npm run serve",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
